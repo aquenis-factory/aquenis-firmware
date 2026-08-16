@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "product": "Aquenis Hub M5Basic",
+  "deviceType": "hub",
+  "otaTarget": "hub-m5",
+  "hardwareProfile": "m5stack-basic",
+  "firmwareVersion": "2.4.12-ota-test",
+  "build": "2026.08.16-01",
+  "channel": "production",
+  "otaCapable": true,
+  "artifactsAvailable": true,
+  "firmwareSizeBytes": 1153152,
+  "files": {
+    "firmware": "firmware.bin"
+  },
+  "sha256": {
+    "firmware": "7e1b836148148df04a66b8a477c589d5fe2fd0b85de959aba466b132ee6df00e"
+  },
+  "sourceRepository": "aquenis-factory/Aquenis_Hub_M5Basic_G1",
+  "sourceCommit": "1a73da6ab4c8c25cbea21fe457cddc2891bae7fb",
+  "publishedAt": "2026-08-16T14:50:23Z"
+}
