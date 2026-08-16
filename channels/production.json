@@ -1,6 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "production",
-  "generatedAt": "2026-08-16T16:15:00+02:00",
-  "firmwares": []
+  "generatedAt": "2026-08-16T14:39:08Z",
+  "firmwares": [
+    {
+      "deviceType": "hub",
+      "hardwareProfile": "m5stack-basic",
+      "version": "2.4.11-finalized-hub",
+      "path": "production/main/Aquenis_Hub_M5Basic/v2.4.11-finalized-hub/metadata.json"
+    }
+  ]
 }
