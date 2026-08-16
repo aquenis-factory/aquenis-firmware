@@ -19,15 +19,22 @@ erhalten.
 | Gerät | Hardwareprofil | Version | Build | Status |
 |---|---|---|---|---|
 | Aquenis Hub M5Basic G1 | `m5stack-basic` | [`2.4.11-finalized-hub`](production/main/Aquenis_Hub_M5Basic/v2.4.11-finalized-hub/) | `2026.08.15-01` | Veröffentlichte und abgenommene Ausgangsversion |
-| Aquenis Hub M5Basic G1 | `m5stack-basic` | [`2.4.12-ota-test`](production/main/Aquenis_Hub_M5Basic/v2.4.12-ota-test/) | `2026.08.16-01` | Aktuell in `production`; erstes OTA-Update über die App erfolgreich bestätigt |
+| Aquenis Hub M5Basic G1 | `m5stack-basic` | [`2.4.12-ota-test`](production/main/Aquenis_Hub_M5Basic/v2.4.12-ota-test/) | `2026.08.16-01` | Erstes OTA-Update über die App erfolgreich bestätigt |
+| Aquenis Hub M5Basic G1 | `m5stack-basic` | [`2.4.13-tank-ota-metadata`](production/main/Aquenis_Hub_M5Basic/v2.4.13-tank-ota-metadata/) | `2026.08.16-02` | Aktuell in `production`; leitet Tank-OTA-Metadaten an die App weiter |
+| Aquenis Tank ESP32-C3 G1 | `esp32-c3-mini` | [`0.5.20-ota-bootstrap`](production/main/Aquenis_Tank_ESP32C3/v0.5.20-ota-bootstrap/) | `2026.08.16-01` | Aktuell in `production`; OTA-fähige Tank-Bootstrap-Version |
 
-Aktueller Production-Stand:
+## Aktueller Production-Stand
 
-- Gerätetyp: `hub`
-- OTA-Target: `hub-m5`
-- Hardwareprofil: `m5stack-basic`
-- angebotene Version: `2.4.12-ota-test`
-- OTA-Installation über die Aquenis App: erfolgreich verifiziert
+| Gerätetyp | OTA-Target | Hardwareprofil | Angebotene Version |
+|---|---|---|---|
+| `hub` | `hub-m5` | `m5stack-basic` | `2.4.13-tank-ota-metadata` |
+| `tank` | `tank-esp32c3` | `esp32-c3-mini` | `0.5.20-ota-bootstrap` |
+
+Der Hub wurde bereits erfolgreich über die Aquenis App von `2.4.11` auf
+`2.4.12` aktualisiert. Für Tank-OTA muss zuerst der Hub auf `2.4.13`
+aktualisiert werden. Ein Tank benötigt einmalig `0.5.20-ota-bootstrap` per
+USB; alle nachfolgenden Tank-Versionen können anschließend über die App
+installiert werden.
 
 ## Repository-Inhalt
 
