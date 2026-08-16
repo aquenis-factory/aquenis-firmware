@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "production",
-  "generatedAt": "2026-08-16T14:50:23Z",
+  "generatedAt": "2026-08-16T15:30:47Z",
   "firmwares": [
     {
       "deviceType": "hub",
       "hardwareProfile": "m5stack-basic",
-      "version": "2.4.12-ota-test",
-      "path": "production/main/Aquenis_Hub_M5Basic/v2.4.12-ota-test/metadata.json"
+      "version": "2.4.13-tank-ota-metadata",
+      "path": "production/main/Aquenis_Hub_M5Basic/v2.4.13-tank-ota-metadata/metadata.json"
     }
   ]
 }
