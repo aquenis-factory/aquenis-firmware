@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "product": "Aquenis Firmware Repository",
-  "generatedAt": "2026-08-16T16:15:47Z",
-  "updatedAt": "2026-08-16T16:15:47Z",
+  "generatedAt": "2026-08-16T17:18:10Z",
+  "updatedAt": "2026-08-16T17:18:10Z",
   "channels": {
     "production": "channels/production.json",
     "development": "channels/development.json"

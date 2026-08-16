@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "production",
-  "generatedAt": "2026-08-16T16:15:47Z",
+  "generatedAt": "2026-08-16T17:18:10Z",
   "firmwares": [
     {
       "deviceType": "hub",
       "hardwareProfile": "m5stack-basic",
-      "version": "2.4.14-tank-registry-capacity-fix",
-      "path": "production/main/Aquenis_Hub_M5Basic/v2.4.14-tank-registry-capacity-fix/metadata.json"
+      "version": "2.4.15-controller-registry-persistence-fix",
+      "path": "production/main/Aquenis_Hub_M5Basic/v2.4.15-controller-registry-persistence-fix/metadata.json"
     },
     {
       "deviceType": "tank",
