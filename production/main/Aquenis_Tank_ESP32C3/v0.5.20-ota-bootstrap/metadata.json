@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "product": "Aquenis Tank ESP32-C3",
+  "deviceType": "tank",
+  "otaTarget": "tank-esp32c3",
+  "hardwareProfile": "esp32-c3-mini",
+  "firmwareVersion": "0.5.20-ota-bootstrap",
+  "build": "2026.08.16-01",
+  "channel": "production",
+  "otaCapable": true,
+  "artifactsAvailable": true,
+  "firmwareSizeBytes": 1057216,
+  "files": {
+    "firmware": "firmware.bin"
+  },
+  "sha256": {
+    "firmware": "1740228e8381667c9f494dcf2811d0e3be15c2b5da0cbf66189f4c79df09772b"
+  },
+  "sourceRepository": "aquenis-factory/Aquenis_Tank_ESP32C3_G1",
+  "sourceCommit": "29f8606420c2e85d2c27e2d63da8b4dff8671e74",
+  "publishedAt": "2026-08-16T15:32:48Z"
+}
