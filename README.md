@@ -21,21 +21,23 @@ erhalten.
 | Aquenis Hub M5Basic G1 | `m5stack-basic` | [`2.4.11-finalized-hub`](production/main/Aquenis_Hub_M5Basic/v2.4.11-finalized-hub/) | `2026.08.15-01` | Veröffentlichte und abgenommene Ausgangsversion |
 | Aquenis Hub M5Basic G1 | `m5stack-basic` | [`2.4.12-ota-test`](production/main/Aquenis_Hub_M5Basic/v2.4.12-ota-test/) | `2026.08.16-01` | Erstes OTA-Update über die App erfolgreich bestätigt |
 | Aquenis Hub M5Basic G1 | `m5stack-basic` | [`2.4.13-tank-ota-metadata`](production/main/Aquenis_Hub_M5Basic/v2.4.13-tank-ota-metadata/) | `2026.08.16-02` | Führt Tank-OTA-Metadaten ein; bei mehreren Tanks durch `2.4.14` ersetzt |
-| Aquenis Hub M5Basic G1 | `m5stack-basic` | [`2.4.14-tank-registry-capacity-fix`](production/main/Aquenis_Hub_M5Basic/v2.4.14-tank-registry-capacity-fix/) | `2026.08.16-03` | Vergrössert die JSON-Puffer; wegen der NVS-Persistenzgrenze durch `2.4.15` ersetzt |\n| Aquenis Hub M5Basic G1 | `m5stack-basic` | [`2.4.15-controller-registry-persistence-fix`](production/main/Aquenis_Hub_M5Basic/v2.4.15-controller-registry-persistence-fix/) | `2026.08.16-04` | Aktuell in `production`; migriert die Controller-Registry nach LittleFS und bestätigt nur verifizierte Schreibvorgänge |
-| Aquenis Tank ESP32-C3 G1 | `esp32-c3-mini` | [`0.5.20-ota-bootstrap`](production/main/Aquenis_Tank_ESP32C3/v0.5.20-ota-bootstrap/) | `2026.08.16-01` | Aktuell in `production`; OTA-fähige Tank-Bootstrap-Version |
+| Aquenis Hub M5Basic G1 | `m5stack-basic` | [`2.4.14-tank-registry-capacity-fix`](production/main/Aquenis_Hub_M5Basic/v2.4.14-tank-registry-capacity-fix/) | `2026.08.16-03` | Vergrössert die JSON-Puffer; wegen der NVS-Persistenzgrenze durch `2.4.15` ersetzt |
+| Aquenis Hub M5Basic G1 | `m5stack-basic` | [`2.4.15-controller-registry-persistence-fix`](production/main/Aquenis_Hub_M5Basic/v2.4.15-controller-registry-persistence-fix/) | `2026.08.16-04` | Aktuell in `production`; migriert die Controller-Registry nach LittleFS und bestätigt nur verifizierte Schreibvorgänge |
+| Aquenis Tank ESP32-C3 G1 | `esp32-c3-mini` | [`0.5.20-ota-bootstrap`](production/main/Aquenis_Tank_ESP32C3/v0.5.20-ota-bootstrap/) | `2026.08.16-01` | OTA-fähige Bootstrap-Version; durch `0.5.21` als Production-Angebot ersetzt |
+| Aquenis Tank ESP32-C3 G1 | `esp32-c3-mini` | [`0.5.21-ota-test`](production/main/Aquenis_Tank_ESP32C3/v0.5.21-ota-test/) | `2026.08.16-02` | Aktuell in `production`; erster Tank-OTA-Test über die App |
 
 ## Aktueller Production-Stand
 
 | Gerätetyp | OTA-Target | Hardwareprofil | Angebotene Version |
 |---|---|---|---|
 | `hub` | `hub-m5` | `m5stack-basic` | `2.4.15-controller-registry-persistence-fix` |
-| `tank` | `tank-esp32c3` | `esp32-c3-mini` | `0.5.20-ota-bootstrap` |
+| `tank` | `tank-esp32c3` | `esp32-c3-mini` | `0.5.21-ota-test` |
 
 Der Hub wurde bereits erfolgreich über die Aquenis App von `2.4.11` auf
 `2.4.12` aktualisiert. Für Tank-OTA und zuverlässige Registrierung in einer
-Mehrcontroller-Installation muss der Hub mindestens `2.4.14` verwenden. Ein
-Tank benötigt einmalig `0.5.20-ota-bootstrap` per USB; alle nachfolgenden
-Tank-Versionen können anschließend über die App installiert werden.
+Mehrcontroller-Installation muss der Hub mindestens `2.4.15` verwenden. Ein
+Tank benötigt einmalig `0.5.20-ota-bootstrap` per USB. `0.5.21-ota-test` ist
+das erste anschließend über die App angebotene Tank-Update.
 
 ## Repository-Inhalt
 
