@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "product": "Aquenis Firmware Repository",
+  "generatedAt": "2026-08-16T16:15:00+02:00",
+  "updatedAt": "2026-08-16T16:15:00+02:00",
+  "channels": {
+    "production": "channels/production.json",
+    "development": "channels/development.json"
+  },
+  "layout": "<channel-area>/<lane>/<project>/v<version>",
+  "devices": [
+    "hub",
+    "tank"
+  ]
+}
